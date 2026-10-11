@@ -4,7 +4,7 @@
 This is a person detection project that streams from 32-cam and process live feed data with the power of friendship(TensorFlow Lite) into motor driver. Use esp32-cam ov3660 since its better for AI stuffs.
 
 ## File Tree Structure:
-
+```text
 esp32_person_project/
 ├── person_detector_64x64.ino
 ├── model_data.h)
@@ -18,6 +18,7 @@ esp32_person_project/
         ├── schema/
         │   └── schema_generated.h
         └── version.h
+```
         
 ## Dataset Resources:
 
